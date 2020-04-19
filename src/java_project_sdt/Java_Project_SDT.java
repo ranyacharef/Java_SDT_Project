@@ -16,6 +16,11 @@ public class Java_Project_SDT {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        int[] t={0,1,2,3,4,5,6};
+        
+        for(int i=0; i<=6; i++)
+         System.out.print(t[i]+" | ");
     }
     
 }
