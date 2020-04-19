@@ -21,6 +21,11 @@ public class Java_Project_SDT {
         
         for(int i=0; i<=6; i++)
          System.out.print(t[i]+" | ");
+        
+        System.out.println();
+        
+         for(int i=6; i>=0; i--)
+         System.out.print(t[i]+" | ");
     }
     
 }
