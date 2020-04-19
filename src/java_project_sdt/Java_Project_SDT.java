@@ -26,6 +26,23 @@ public class Java_Project_SDT {
         
          for(int i=6; i>=0; i--)
          System.out.print(t[i]+" | ");
+         
+         int j=3;
+         int v;
+         
+         for(int i=0; i<=2; i++){
+           while(j<=6){
+               v=t[i];
+               t[i]=t[j];
+               t[j]=v;
+               j++;
+           }
+         }
+         
+         System.out.println();
+         
+          for(int i=0; i<=6; i++)
+         System.out.print(t[i]+" | ");
     }
     
 }
